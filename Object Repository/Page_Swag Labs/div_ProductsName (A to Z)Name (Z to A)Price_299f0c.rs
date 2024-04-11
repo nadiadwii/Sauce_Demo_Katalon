@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>15c30022-1f49-48af-9a16-639cfc9ce31d</webElementGuid>
+      <webElementGuid>645c4a05-4159-4446-868f-55d0daba67c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>header_secondary_container</value>
-      <webElementGuid>e23723fc-b20d-470e-bacc-8ae30214d691</webElementGuid>
+      <webElementGuid>fa1d6f9e-3802-4528-84ea-9abfc21d3eb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>ProductsName (A to Z)Name (Z to A)Price (low to high)Price (high to low)</value>
-      <webElementGuid>27239c17-0a95-45b2-a911-5740a763c47f</webElementGuid>
+      <webElementGuid>52f63194-f2b8-4875-a1cc-4f3c0d69c261</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;contents_wrapper&quot;)/div[@id=&quot;inventory_container&quot;]/div[1]/div[@class=&quot;header_secondary_container&quot;]</value>
-      <webElementGuid>2d4e753f-5494-4ee6-933e-82fd85110fda</webElementGuid>
+      <webElementGuid>3ef5455c-392e-43fc-a871-aa400fdc5000</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='inventory_container']/div/div</value>
-      <webElementGuid>5807cd16-d929-4d8e-8646-ab96fc6430ae</webElementGuid>
+      <webElementGuid>f286ec01-61e2-43db-9149-e9efa8b945eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Open Menu'])[1]/following::div[8]</value>
-      <webElementGuid>6d5c5038-8d96-44ae-af2c-7c3bb338b64a</webElementGuid>
+      <webElementGuid>cd91c2f3-6791-4ceb-ada4-30e2daa67c65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Menu'])[1]/following::div[10]</value>
-      <webElementGuid>4ddf22a2-9403-43b9-8c18-9bf62e8336c9</webElementGuid>
+      <webElementGuid>d459ab79-ed7b-4e15-a401-26700b92d4bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sauce Labs Backpack'])[1]/preceding::div[6]</value>
-      <webElementGuid>e60ea0d6-e1e6-4cef-944b-9be00c0e5f9f</webElementGuid>
+      <webElementGuid>fabebcd7-94a5-46e8-b73b-6b12770b06fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div</value>
-      <webElementGuid>5b5b4a4c-f42e-4630-8f51-6f40c15315e9</webElementGuid>
+      <webElementGuid>6a8f5534-2a54-49ab-b177-147af02398cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'ProductsName (A to Z)Name (Z to A)Price (low to high)Price (high to low)' or . = 'ProductsName (A to Z)Name (Z to A)Price (low to high)Price (high to low)')]</value>
-      <webElementGuid>a99838f0-a634-4f25-9090-98275ccc946b</webElementGuid>
+      <webElementGuid>0dc8cfae-ef10-4ac2-b58b-6b5c8f4480eb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

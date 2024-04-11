@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_ADD TO CART_inventory_item_img</name>
+   <tag></tag>
+   <elementGuidId>3e7c4b9e-0aef-4fd3-8753-c7a7d056c03c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#item_0_img_link > img.inventory_item_img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='item_0_img_link']/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>014f38ae-f558-4a5f-aa3e-77da5b721979</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inventory_item_img</value>
+      <webElementGuid>46b9a5a3-8e3d-41ed-af10-e6d46d1fef6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>./img/bike-light-1200x1500.jpgWithGarbageOnItToBreakTheUrl</value>
+      <webElementGuid>706364c9-23ad-410c-bd6a-df8635fc2081</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;item_0_img_link&quot;)/img[@class=&quot;inventory_item_img&quot;]</value>
+      <webElementGuid>eff6f193-f701-416d-900e-c2f441234dcf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='item_0_img_link']/img</value>
+      <webElementGuid>a613970c-aa09-47b8-80c2-358436546f06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a/img</value>
+      <webElementGuid>859c7eb3-1600-443b-a9ca-bde7d53e98af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = './img/bike-light-1200x1500.jpgWithGarbageOnItToBreakTheUrl']</value>
+      <webElementGuid>6f55ca5e-1dcc-4c66-ae8c-8a5bcb3c0a24</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

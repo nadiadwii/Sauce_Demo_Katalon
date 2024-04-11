@@ -21,14 +21,14 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/v1/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'), 'locked_out_user')
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'), 'problem_user')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'), 
     'qcu24s4901FyWDTwXGr6XA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/h3_Epic sadface Sorry, this user has been l_a91fd7'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_ProductsName (A to Z)Name (Z to A)Price_299f0c'))
 
 WebUI.closeBrowser()
 
