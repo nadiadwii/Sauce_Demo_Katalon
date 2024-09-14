@@ -17,16 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login/Login_Standard'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://www.saucedemo.com/v1/')
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/img_ADD TO CART_inventory_item_img (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'), 'standard_user')
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_A red light isnt the desired state in t_cf0f76'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'), 
-    'qcu24s4901FyWDTwXGr6XA==')
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_9.99'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_Sauce Labs Bike Light'))
 
-// Verifikasi apakah login berhasil dengan mengecek elemen dashboard
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/div_Products'), 60)

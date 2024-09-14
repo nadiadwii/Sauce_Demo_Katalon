@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_ADD TO CART_inventory_item_img (1)</name>
+   <tag></tag>
+   <elementGuidId>3713484f-3ae2-44d4-a4d5-fca32be4a760</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='item_0_img_link']/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#item_0_img_link > img.inventory_item_img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>9a8f906e-3be4-4b7c-8d8e-635d633e7b8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inventory_item_img</value>
+      <webElementGuid>ffdb2d2c-702b-41b4-87d2-76eee94a8ccc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>./img/bike-light-1200x1500.jpg</value>
+      <webElementGuid>e921e3b6-202f-47ba-b6b6-3e0d5e32a467</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;item_0_img_link&quot;)/img[@class=&quot;inventory_item_img&quot;]</value>
+      <webElementGuid>edface85-1498-45b3-ac80-db114150c386</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='item_0_img_link']/img</value>
+      <webElementGuid>bdd03566-f720-432a-bb5c-885e7c1275b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a/img</value>
+      <webElementGuid>cbca4649-8351-49ff-83a8-0ececef282e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = './img/bike-light-1200x1500.jpg']</value>
+      <webElementGuid>4fc1085e-5e01-4ec9-8ca4-6fead44f4d10</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

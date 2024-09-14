@@ -17,16 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login/Login_Standard'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://www.saucedemo.com/v1/')
+// Ambil nama dari halaman katalog
+String namaProduk_Katalog = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/div_Sauce Labs Backpack (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'), 'standard_user')
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_Sauce Labs Backpack (1)'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'), 
-    'qcu24s4901FyWDTwXGr6XA==')
+// Ambil nama dari halaman detail katalog
+String namaProduk_Detail = WebUI.getText(findTestObject('Object Repository/Page_Swag Labs/namaProduk_Detail'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'))
-
-// Verifikasi apakah login berhasil dengan mengecek elemen dashboard
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/div_Products'), 60)
+// Verifikasi bahwa nama di halaman katalog sama dengan nama di halaman detail
+WebUI.verifyEqual(namaProduk_Katalog, namaProduk_Detail)

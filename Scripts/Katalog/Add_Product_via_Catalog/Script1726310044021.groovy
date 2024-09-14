@@ -17,16 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+import com.kms.katalon.core.testobject.ConditionType
 
-WebUI.navigateToUrl('https://www.saucedemo.com/v1/')
+WebUI.callTestCase(findTestCase('Login/Login_Standard'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'), 'standard_user')
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_ADD TO CART'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'), 
-    'qcu24s4901FyWDTwXGr6XA==')
+// Verifikasi bahwa elemen induk (container) ada di halaman
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/container_Sauce Labs Backpackcarry'), 10)
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71'))
+// Verifikasi bahwa elemen anak (title) ada di dalam container (Cek button Add sudah berubah ke Remove)
+TestObject productTitle = new TestObject()
+productTitle.addProperty("css", ConditionType.EQUALS, "button.btn_secondary.btn_inventory")
 
-// Verifikasi apakah login berhasil dengan mengecek elemen dashboard
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/div_Products'), 60)
+WebUI.verifyElementPresent(productTitle, 10)
+
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/svg_Open Menu_svg-inline--fa fa-shopping-ca_f4ec0f'))
+
+// Verifikasi produk yang ditambahkan ada di keranjang
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/div_Sauce Labs Backpack'), 60)
