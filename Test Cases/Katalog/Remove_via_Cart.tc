@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User ingin hapus produk dari keranjang melalui entry point Katalog</description>
+   <name>Remove_via_Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c567820e-b702-4f02-9be1-1c98285a3d90</testCaseGuid>
+</TestCaseEntity>
